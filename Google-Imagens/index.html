@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
-    <title>Document</title>
+    <title>Google Imagens</title>
 </head>
 <body>
     <nav class="nav-bar">
@@ -16,7 +16,7 @@
                 <li>Google Search</li>
             </a>
             <a href="/Advanced-Search/index.html">
-                <li>Advanced Search</li>
+                <li>Google Advanced</li>
             </a>
         </ul>
     </nav>
@@ -26,11 +26,21 @@
             <span>Imagens</span>
         </div>
 
-        <form action="https://www.google.com/search?q=">
-            <input type="text" name="q">
-            <input type="submit" value="Google Imagens">
-        </form> 
+        <form action="https://www.google.com/search">
 
+            <div class="inputDiv">
+                <input type="text" name="q">
+                <input type="hidden" name="tbm" value="isch" >
+                <i class="fas fa-search"></i>
+            </div>
+
+            <div class="inputButtons">
+                <input type="submit" value="Google Search">
+                <input type="submit" name="btnI" value="I'm Feeling Lucky">
+            </div>
+
+        </form> 
+        <script src="https://kit.fontawesome.com/1d062ab49d.js" crossorigin="anonymous"></script>
     </section>
 </body>
 </html>

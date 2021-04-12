@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Google</title>
+    <title>Google Seaech</title>
 </head>
+
 <body>
     <nav class="nav-bar">
         <ul>
@@ -19,15 +21,26 @@
         </ul>
     </nav>
     <section class="content">
-        
+
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
 
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form> 
+
+            <div class="inputDiv">
+                <input type="text" name="q">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <div class="inputButtons">
+                <input type="submit" value="Google Search">
+                <input type="submit" name="btnI" value="I'm Feeling Lucky">
+            </div>
+            
+        </form>
 
     </section>
     <form action="https://google.com/search"></form>
+    <script src="https://kit.fontawesome.com/1d062ab49d.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
